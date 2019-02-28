@@ -118,6 +118,7 @@ app.get('/uploads/:id/:i', (req, res) => {
   var path = require('path');
   var fs = require('fs');
   var file = path.join(__dirname, './uploads/' + req.params.id + '/' + req.params.i);
+  console.log("the path is :",file);
   var data = fs.readFileSync(file);
   res.send(data);
 
