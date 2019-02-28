@@ -1,0 +1,105 @@
+{
+  materials: [
+    {
+      name: '08___Default',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.45490000000000003,
+            0.45490000000000003,
+            0.45490000000000003,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.30151099999999997,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '07___Default',
+      parameters: [
+        {
+          baseColor: '3_4_8_d - Copy',
+        },
+        {
+          baseColorTint: [
+            0.58819999999999995,
+            0.58819999999999995,
+            0.58819999999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: '09___Default',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: './sofa/900645.obj',
+    name: '900645',
+    recenter: 'root',
+    scale: 0.001317,
+  },
+  samplers: [
+    {
+      file: './sofa/3_4_8_d - Copy.jpg',
+      name: '3_4_8_d - Copy',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: '3_4_8_d - Copy.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

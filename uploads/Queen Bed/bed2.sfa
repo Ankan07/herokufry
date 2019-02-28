@@ -1,0 +1,87 @@
+{
+  materials: [
+    {
+      name: 'Object001_mtl',
+      parameters: [
+        {
+          baseColor: 'Object001_2015-03-13_17-18-03_complete.rpf_converted',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Object002_mtl',
+      parameters: [
+        {
+          baseColor: 'Object002_2015-03-13_16-50-00_complete.rpf_converted',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: './bed2/bed2.obj',
+    name: 'bed2',
+    recenter: 'root',
+    scale: 0.01,
+  },
+  samplers: [
+    {
+      file: './bed2/Object002_2015-03-13_16-50-00_complete.rpf_converted.jpg',
+      name: 'Object002_2015-03-13_16-50-00_complete.rpf_converted',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Object002_2015-03-13_16-50-00_complete.rpf_converted.jpg',
+    },
+    {
+      file: './bed2/Object001_2015-03-13_17-18-03_complete.rpf_converted.jpg',
+      name: 'Object001_2015-03-13_17-18-03_complete.rpf_converted',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Object001_2015-03-13_17-18-03_complete.rpf_converted.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

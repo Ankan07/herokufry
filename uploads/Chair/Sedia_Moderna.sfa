@@ -1,0 +1,53 @@
+{
+  materials: [
+    {
+      name: 'Sedia_Moderna01',
+      parameters: [
+        {
+          baseColor: 'Sedia-Moderna01DiffuseMap',
+        },
+        {
+          baseColorTint: [
+            0.58823499999999995,
+            0.58823499999999995,
+            0.58823499999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.25,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: './input/Sedia_Moderna.obj',
+    name: 'Sedia_Moderna',
+    recenter: 'root',
+    scale: 0.056793999999999997,
+  },
+  samplers: [
+    {
+      file: './input/Sedia-Moderna01DiffuseMap.jpg',
+      name: 'Sedia-Moderna01DiffuseMap',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Sedia-Moderna01DiffuseMap.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

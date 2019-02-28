@@ -1,0 +1,61 @@
+{
+  materials: [
+    {
+      name: 'shelf___Base',
+      parameters: [
+        {
+          baseColor: 'Shelf-Albedo',
+        },
+        {
+          baseColorTint: [
+            0.58823499999999995,
+            0.58823499999999995,
+            0.58823499999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.208514,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: './input/Shelf_End_A1.obj',
+    name: 'Shelf_End_A1',
+    recenter: 'root',
+    scale: 0.065573999999999993,
+  },
+  samplers: [
+    {
+      file: './input/Shelf-Albedo.jpg',
+      name: 'Shelf-Albedo',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Shelf-Albedo.jpg',
+    },
+    {
+      file: './input/Shelf-NMap.jpg',
+      name: 'Shelf-NMap',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'Shelf-NMap.tga',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,350 @@
+{
+  materials: [
+    {
+      name: 'blinn1SG',
+      parameters: [
+        {
+          baseColor: 'Nose',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'blinn2SG',
+      parameters: [
+        {
+          baseColor: 'R2',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'blinn5SG',
+      parameters: [
+        {
+          baseColor: 'XwingEngineFire',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'blinn8SG',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'blinn9SG',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'initialShadingGroup',
+      parameters: [
+        {
+          baseColor: 'R2',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert2SG',
+      parameters: [
+        {
+          baseColor: 'XwingFuselage',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert3SG',
+      parameters: [
+        {
+          baseColor: 'Canopy',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert4SG',
+      parameters: [
+        {
+          baseColor: 'XwingWing',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert6SG',
+      parameters: [
+        {
+          baseColor: 'XwingEngineIntake',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'lambert7SG',
+      parameters: [
+        {
+          baseColor: 'XwingEngineAft',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: './sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: './xwing/Xwing.obj',
+    name: 'Xwing',
+    recenter: 'root',
+    scale: 0.62810900000000003,
+  },
+  samplers: [
+    {
+      file: './xwing/XwingEngineAft.jpg',
+      name: 'XwingEngineAft',
+      pipeline_name: 'XwingEngineAft.jpg',
+    },
+    {
+      file: './xwing/XwingWing.jpg',
+      name: 'XwingWing',
+      pipeline_name: 'XwingWing.jpg',
+    },
+    {
+      file: './xwing/Canopy.jpg',
+      name: 'Canopy',
+      pipeline_name: 'Canopy.jpg',
+    },
+    {
+      file: './xwing/XwingFuselage.jpg',
+      name: 'XwingFuselage',
+      pipeline_name: 'XwingFuselage.jpg',
+    },
+    {
+      file: './xwing/R2.jpg',
+      name: 'R2',
+      pipeline_name: 'R2.jpg',
+    },
+    {
+      file: './xwing/XwingEngineFire.jpg',
+      name: 'XwingEngineFire',
+      pipeline_name: 'XwingEngineFire.jpg',
+    },
+    {
+      file: './xwing/XwingEngineIntake.jpg',
+      name: 'XwingEngineIntake',
+      pipeline_name: 'XwingEngineIntake.jpg',
+    },
+    {
+      file: './xwing/R2.jpg',
+      name: 'R2',
+      pipeline_name: 'R2.jpg',
+    },
+    {
+      file: './xwing/Nose.jpg',
+      name: 'Nose',
+      pipeline_name: 'Nose.jpg',
+    },
+  ],
+  version: '0.54:2',
+}
